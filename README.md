@@ -4,7 +4,7 @@ This is a backend API for a fitness tracking application. The application is bui
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/yourusername/fitness_tracker_api.git`
+1. Clone this repository: [`git clone https://github.com/yourusername/fitness_tracker_api.git`](https://github.com/lukefitch/fitness_tracker_api.git)
 2. Navigate to the project directory: `cd fitness_tracker_api`
 3. Install dependencies with `pip install -r requirements.txt`.
 
