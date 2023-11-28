@@ -14,3 +14,5 @@ def test_create_user():
         db.session.commit()
 
         assert User.query.count() == 1
+
+# Add your other tests here

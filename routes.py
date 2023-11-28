@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from models import db, User
+from models import db, User, Activity, DietLog, WorkoutPlan
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/fitness_tracker_db'
@@ -14,3 +14,8 @@ def create_user():
     db.session.add(user)
     db.session.commit()
     return jsonify({'message': 'User created'}), 201
+
+# Add your other routes here
+
+if __name__ == '__main__':
+    app.run(debug=True)
